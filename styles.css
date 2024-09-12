@@ -1,0 +1,118 @@
+/* Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    background-color: #1e1e1e; /* Cor de fundo padrão */
+}
+
+header {
+    background-color: #111; /* Escuro para corresponder ao tema */
+    color: #ff6f61; /* Cor inspirada no tema Sukuna */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff6f61; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5f5f5;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro, .content, .portfolio-preview {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência para legibilidade */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.profile-card, .contact-info, .portfolio-item {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.profile-card img, .portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ff6f61;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #e55d50;
+}
+
+footer {
+    background-color: #111;
+    color: #ff6f61;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #ff6f61; /* Cor dos links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Imagens de fundo para as páginas */
+.home-page {
+    background: url('https://i.pinimg.com/originals/a8/2a/6f/a82a6ff59e27c4800a59c25b84b8dd91.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sobre-page {
+    background: url('https://giffiles.alphacoders.com/211/211839.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contato-page {
+    background: url('https://i.pinimg.com/originals/82/9c/15/829c15633cef94444c681910dfedd23b.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.portfolio-page {
+    background: url('https://64.media.tumblr.com/b344dad5bff57f8c9bbf5473d043ae29/469915f9f0652903-4d/s540x810/3ba570cebc19ab935184561e8e8db174bb21597f.gif') no-repeat center center fixed;
+    background-size: cover;
+}
